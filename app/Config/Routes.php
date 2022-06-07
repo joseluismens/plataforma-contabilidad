@@ -45,10 +45,10 @@ $routes->get('/home', 'HomeController::index',['as'=>'home']);
 $routes->post('/empresa/add','EmpresaController::add',['as'=>'nuevaEmpresa']);
 $routes->post('/empresa/update','EmpresaController::update',['as'=>'ActualizarEmpresa']);
 $routes->get( 'empleados/(:num)','EmpleadoController::listAll/$1',['as'=>'listarEmpleados']);
-$routes->get( 'empleado/','EmpleadoController::create',['as'=>'nuevoEmpleados']);
+$routes->get( 'nuevoEmpleado/(:num)','EmpleadoController::create/$1',['as'=>'nuevoEmpleados']);
 $routes->get( 'empleado/(:num)','EmpleadoController::edit/$1',['as'=>'modificarEmpleados']);
 $routes->get('empleado/contratos/(:num)','EmpleadoController::editContrato/$id',['as'=>'datosContrato']);
-
+$routes->post('empleado','EmpleadoController::add',['as'=>'registrarEmpleado']);
 
 $routes->group('/',['filter'=>'authGuard'],function($routes){
     $routes->group('empresa',function($routes){

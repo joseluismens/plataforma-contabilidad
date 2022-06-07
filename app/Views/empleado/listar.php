@@ -10,7 +10,8 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title text-center"> Empleados de  <?=$empresa->nombre?></h5>
-
+                    
+                    <a href="<?=base_url()?>/index.php/nuevoEmpleado/<?=$empresa->id?>" class="btn btn-info float-end mb-3">Nuevo Empleado</a>
                     <table class="table  table-condensed table-bordered table-striped" >
                         <thead>
                             <tr>

@@ -9,17 +9,27 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title"> Registro Empleado <?=$empresa->nombre?></h5>
-
-                    <form action="<?=base_url()?>/index.php/empresa/add" method="post">
+                    <?=!empty($errors)?>
+                    <form action="<?=base_url()?>/index.php/empleado" method="post">
                         <?=csrf_field()?>
                         <div class="row">
 
                             <div class="col-xs-12 col-md-6">
 
-                                <div class="row col-12 mb-3">
-                                    <label for="rut">Rut </label>
-                                    <input type="text" class="form-control" id="rut" name="rut"
-                                        placeholder="Ingrese el rut" required>
+                                <div class="row mb-3">
+
+                                    <div class="col-xs-12 col-md-6">
+                                        <label for="">Empresa</label>
+                                        <select name="id_empresa" readonly class="form-control">
+                                            <option value="<?=$empresa->id?>"><?=$empresa->nombre?></option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-12 col-md-6">
+                                        <label for="rut">Rut </label>
+                                        <input type="text" class="form-control" id="rut" name="rut"
+                                            placeholder="Ingrese el rut">
+                                    </div>
+                                
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-4">
@@ -31,67 +41,63 @@
                                     <div class="col-xs-12 col-md-4">
                                         <label for="materno">Materno</label>
                                         <input type="text" class="form-control" id="materno" name="materno"
-                                            placeholder="Ingrese apellido paterno" required>
+                                            placeholder="Ingrese apellido paterno">
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="nombre">Nombres</label>
                                         <input type="text" class="form-control" id="nombres" name="nombres"
-                                            placeholder="Ingrese nombre" required>
+                                            placeholder="Ingrese nombre">
                                     </div>
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="fecha_nacimiento">Fecha Nacimiento</label>
                                     <input type="date" class="form-control" id="fecha_navimiento"
-                                        name="fecha_navimiento" required>
+                                        name="fecha_navimiento">
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-4">
                                         <label for="direccion">Dirección</label>
-                                        <input type="text" class="form-control" id="direccion" name="direccion"
-                                            required>
+                                        <input type="text" class="form-control" id="direccion" name="direccion">
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="comuna">Comuna</label>
-                                        <input type="text" class="form-control" id="comuna" name="comuna" required>
+                                        <input type="text" class="form-control" id="comuna" name="comuna">
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="comuna">Nacionalidad</label>
-                                        <input type="text" class="form-control" id="nacionalidad" name="nacionalidad"
-                                            required>
+                                        <input type="text" class="form-control" id="nacionalidad" name="nacionalidad">
                                     </div>
                                 </div>
 
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-4">
                                         <label for="telefono">Telefono</label>
-                                        <input type="text" class="form-control" id="telefono" name="telefono" required>
+                                        <input type="text" class="form-control" id="telefono" name="telefono">
 
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="celular">Celular</label>
-                                        <input type="text" class="form-control" id="celular" name="celular" required>
+                                        <input type="text" class="form-control" id="celular" name="celular">
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="email">E-Mail</label>
-                                        <input type="text" class="form-control" id="email" name="email" required>
+                                        <input type="text" class="form-control" id="email" name="email">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-4">
                                         <label for="genero">Genero</label>
-                                        <input type="text" class="form-control" id="genero" name="genero" required>
+                                        <input type="text" class="form-control" id="genero" name="genero">
                                     </div>
 
                                     <div class="col-xs-12 col-md-4">
                                         <label for="esdtado_civil">Estado Civil</label>
-                                        <input type="text" class="form-control" id="esdtado_civil" name="esdtado_civil"
-                                            required>
+                                        <input type="text" class="form-control" id="esdtado_civil" name="esdtado_civil">
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="discapacidad">Discapacidad</label>
-                                        <input type="text" class="form-control" id="discapacidad" name="discapacidad"
-                                            required>
+                                        <input type="text" class="form-control" id="discapacidad" name="discapacidad">
                                     </div>
 
                                 </div>
@@ -645,8 +651,7 @@
 
                 </div>
             </div>
-            <a href="<?=base_url()?>/index.php/empleado/contratos/<?=$empleado->id?>"
-                class="btn btn-secondary float-end m-1"> Datos de contrato</a>
+
 
             <button type="submit" class="btn btn-primary float-end m-1"> Registrar</button>
             </form>
