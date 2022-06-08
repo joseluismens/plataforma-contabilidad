@@ -38,14 +38,13 @@ class EmpleadoModel extends Model{
                                     'cargas_invalidez',
                                     'cargas_maternales',
                                     'jubilado',
-                                    'seguro_censatia_2002',
-                                    'seguro_censatia_empresarial',
-                                    'seguro_censatia_fondo_solidario',
-                                    'seguro_censantia_afp',
+                                    'seguro_cesantia_2002',
+                                    'seguro_cesantia_empresarial',
+                                    'seguro_cesantia_fondo_solidario',
+                                    'seguro_cesantia_afp',
                                     'seguro_invalidez',
                                     'trabajo_pesado',
-                                    'trabajo_pesajo_porcentaje',
-                                    'cuenta2',
+                                    'trabajo_pesado_porcentaje',
                                     'cuenta2_tipo',
                                     'cuenta2_valor',
                                     'cuenta2_afp',
@@ -60,17 +59,6 @@ class EmpleadoModel extends Model{
      protected $returnType   ='App\Entities\Empleado';
     protected $useTimestamps=false;                           
 
-    protected $validationRules = [
-        "rut"=>"required|min_length[10]"
-    ];
-    protected $validationMessages = [
-        "rut"=>[
-            "required"=> "El rut es requerido",
-            "min_length" =>"Ingrese el rut con puntos y guion"
-        ]
-
-    ];
-    protected $skipValidation       = false;
-	protected $cleanValidationRules = true;
+   
      
 }

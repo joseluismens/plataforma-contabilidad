@@ -115,7 +115,7 @@ class Empleados extends Migration{
                     'null'=>true
 
                 ],
-                'apv_tirubutable'       		=> [
+                'apv_tributable'       		=> [
                     'type'           => 'VARCHAR',
                     'constraint'     => '100',
                     'null'=>true

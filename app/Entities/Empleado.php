@@ -42,7 +42,7 @@ class Empleado extends Entity{
         'seguro_censantia_afp'=>null,
         'seguro_invalidez'=>null,
         'trabajo_pesado'=>null,
-        'trabajo_pesajo_porcentaje'=>null,
+        'trabajo_pesado_porcentaje'=>null,
         'cuenta2'=>null,
         'cuenta2_tipo'=>null,
         'cuenta2_valor'=>null,

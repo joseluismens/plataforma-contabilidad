@@ -8,9 +8,9 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title"> Registro Empleado <?=$empresa->nombre?></h5>
-                    <?=!empty($errors)?>
-                    <form action="<?=base_url()?>/index.php/empleado" method="post">
+                    <h5 class="card-title"> Actualizar Empleado <?=$empresa->nombre?></h5>
+
+                    <form action="<?=base_url()?>/index.php/empleado/<?=$empleado->id?>" method="post">
                         <?=csrf_field()?>
                         <div class="row">
 
@@ -27,131 +27,178 @@
                                     <div class="col-xs-12 col-md-6">
                                         <label for="rut">Rut </label>
                                         <input type="text" class="form-control" id="rut" name="rut"
-                                            placeholder="Ingrese el rut">
+                                            value="<?=$empleado->rut?>" placeholder="Ingrese el rut">
                                     </div>
-                                
+
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-4">
                                         <label for="paterno">Paterno</label>
                                         <input type="text" class="form-control" id="paterno" name="paterno"
-                                            placeholder="Ingrese apellido materno " required>
+                                            value="<?=$empleado->paterno?>" placeholder="Ingrese apellido paterno ">
 
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="materno">Materno</label>
                                         <input type="text" class="form-control" id="materno" name="materno"
-                                            placeholder="Ingrese apellido paterno">
+                                            value="<?=$empleado->materno?>" placeholder="Ingrese apellido paterno">
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="nombre">Nombres</label>
                                         <input type="text" class="form-control" id="nombres" name="nombres"
-                                            placeholder="Ingrese nombre">
+                                            value="<?=$empleado->nombres?>" placeholder="Ingrese nombre">
                                     </div>
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="fecha_nacimiento">Fecha Nacimiento</label>
                                     <input type="date" class="form-control" id="fecha_nacimiento"
-                                        name="fecha_navimiento">
+                                        value="<?=$empleado->fecha_nacimiento?>" name="fecha_nacimiento">
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-4">
                                         <label for="direccion">Dirección</label>
-                                        <input type="text" class="form-control" id="direccion" name="direccion">
+                                        <input type="text" class="form-control" id="direccion" name="direccion"
+                                            value="<?=$empleado->direccion?>">
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="comuna">Comuna</label>
-                                        <input type="text" class="form-control" id="comuna" name="comuna">
+                                        <input type="text" class="form-control" id="comuna" name="comuna"
+                                            value="<?=$empleado->comuna?>">
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="comuna">Nacionalidad</label>
-                                        <input type="text" class="form-control" id="nacionalidad" name="nacionalidad">
+                                        <input type="text" class="form-control" id="nacionalidad" name="nacionalidad"
+                                            value="<?=$empleado->nacionalidad?>">
                                     </div>
                                 </div>
 
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-4">
                                         <label for="telefono">Telefono</label>
-                                        <input type="text" class="form-control" id="telefono" name="telefono">
+                                        <input type="text" class="form-control" id="telefono" name="telefono"
+                                            value="<?=$empleado->telefono?>">
 
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="celular">Celular</label>
-                                        <input type="text" class="form-control" id="celular" name="celular">
+                                        <input type="text" class="form-control" id="celular" name="celular"
+                                            value="<?=$empleado->celular?>">
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="email">E-Mail</label>
-                                        <input type="text" class="form-control" id="email" name="email">
+                                        <input type="text" class="form-control" id="email" name="email"
+                                            value="<?=$empleado->email?>">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-4">
                                         <label for="genero">Genero</label>
-                                        <input type="text" class="form-control" id="genero" name="genero">
+                                        <select class="form-control" id="genero" name="genero">
+                                            <option value="m" <? $empleado->genero=='m' ? 'selected': '' ?>>
+                                                Masculino
+                                            </option>
+                                            <option value="f" <?=$empleado->genero=='f' ? 'selected': '' ?>>
+                                                Femenino
+                                            </option>
+                                        </select>
+
                                     </div>
 
                                     <div class="col-xs-12 col-md-4">
-                                        <label for="estado_civil">Estado Civil</label>
-                                        <input type="text" class="form-control" id="estado_civil" name="estado_civil">
+                                        <label for="esdtado_civil">Estado Civil</label>
+                                        <select name="estado_civil" id="" class="form-control">
+                                            <option value="">Seleccione
+                                            </option>
+
+                                            <option value="soltero"
+                                                <?=$empleado->estado_civil=='soltero' ? 'selected': '' ?>>Soltero
+                                            </option>
+                                            <option value="casado"
+                                                <?=$empleado->estado_civil=='casafo' ? 'selected': '' ?>>Casado</option>
+                                            <option value="divorciado"
+                                                <?=$empleado->estado_civil=='divorciado' ? 'selected': '' ?>>Divorciado
+                                            </option>
+                                            <option value="viudo"
+                                                <?=$empleado->estado_civil=='viudo' ? 'selected': '' ?>>Viudo</option>
+                                            <option value="concubinato"
+                                                <?=$empleado->estado_civil=='concubinato' ? 'selected': '' ?>>
+                                                Concubinato</option>
+                                        </select>
+
                                     </div>
                                     <div class="col-xs-12 col-md-4">
                                         <label for="discapacidad">Discapacidad</label>
-                                        <input type="text" class="form-control" id="discapacidad" name="discapacidad">
+                                        <input type="text" class="form-control" id="discapacidad" name="discapacidad"
+                                            value="<?=$empleado->discapacidad?>">
                                     </div>
 
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12">
                                         <label for="">Subir foto</label>
-                                        <input type="file" name="foto" class="form-control">
+                                        <input type="file" name="foto" class="form-control"
+                                            value="<?=$empleado->foto?>">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <label for="">APV</label>
                                     <div class=" col-xs-12 col-md-3">
-                                    <select name="apv_institucion" id="" class="form-control"
-                                           >
+
+                                        <select name="apv_institucion" id="" class="form-control"
+                                            value="<?=$empleado->institucion?>">
                                             <?php foreach ($tipos_afp as $value) { ?>
-                                            <option value="<?=$value->id?>">
+                                            <option value="<?=$value->id?>"
+                                                <?=$value->id == $empleado->apv_institucion ? 'selected' : '' ?>>
                                                 <?=$value->name?></option>
                                             <?php }?>
 
 
                                         </select>
-                                        
                                     </div>
                                     <div class="col-xs-12 col-md-3 ">
-                                        <select name="apv_tipo" id="apv_tipo" class="form-control">
-                                            <option value="pesos">pesos</option>
-                                            <option value="uf">UF</option>
+                                        <select name="apv_tipo" id="apv_tipo" class="form-control"
+                                            value="<?=$empleado->apv_tipo?>">
+                                            <option value="">Seleccione</option>
+                                            <option value="pesos" <?=$empleado->apv_tipo =="pesos" ? 'selected': ''?>>
+                                                pesos</option>
+                                            <option value="uf" <?=$empleado->apv_tipo =="uf" ? 'selected': ''?>>UF
+                                            </option>
                                         </select>
                                     </div>
                                     <div class="col-xs-12 col-md-3">
                                         <input type="number" name="apv" id=" " class="form-control"
-                                            placeholder="ingrese valor">
+                                            value="<?=$empleado->apv?>" placeholder="ingrese valor">
                                     </div>
                                     <div class="col-xs-12 col-md-3 form-check mt-2">
                                         <label class="form-check-label ml-1" for="">Tributable</label>
-                                        <input type="checkbox" name="apv_tributable" id="" class="form-check-input m-0 ml-1"
+                                        <input type="checkbox" name="apv_tributable" id=""
+                                            class="form-check-input m-0 ml-1"
+                                            <?=$empleado->apv_tributable=='on' ? 'checked':'' ?>
                                             style="transform:scale(2.5);margin-left:15px !important">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Metodo de pago</label>
-                                        <select name="metodo" id="metodo" class="form-control">
-                                            <option value="3">Abono Cuenta</option>
-                                            <option value="2">Cheque</option>
-                                            <option value="1" selected="">Efectivo</option>
-                                            <option value="5">Servipag</option>
-                                            <option value="4">Vale Vista</option>
+                                        <select name="metodo" id="metodo" class="form-control"
+                                            value="<?=$empleado->metodo?>">
+                                            <option value="">Seleccione</option>
+                                            <option value="1" <?=$empleado->metodo=='1'?'selected':'' ?>>Abono Cuenta
+                                            </option>
+                                            <option value="2" <?=$empleado->metodo=='2'?'selected':'' ?>>Cheque</option>
+                                            <option value="3" <?=$empleado->metodo=='3'?'selected':'' ?>>Efectivo
+                                            </option>
+                                            <option value="4" <?=$empleado->metodo=='4'?'selected':'' ?>>Servipag
+                                            </option>
+                                            <option value="5" <?=$empleado->metodo=='5'?'selected':'' ?>>Vale Vista
+                                            </option>
                                         </select>
                                     </div>
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Cuenta</label>
                                         <input type="numeric" name="cuenta" class="form-control"
-                                            placeholder="Ingrese numero de cuenta">
+                                            value="<?=$empleado->cuenta?>" placeholder="Ingrese numero de cuenta">
                                     </div>
                                 </div>
 
@@ -162,7 +209,7 @@
                                 <div class="row">
                                     <label for="afp"> Cuenta 2</label>
                                     <div class="col-xs-12 col-md-3 mb-1">
-                                        <select name="afp" id="afp" class="form-control">
+                                        <select name="afp" id="afp" class="form-control" value="<?=$empleado->afp?>">
                                             <option value="capital">Capital</option>
                                             <option value="cuptrum">Cuprum</option>
                                             <option value="habitat">Habitat</option>
@@ -173,17 +220,20 @@
                                         </select>
                                     </div>
                                     <div class="col-xs-12 col-md-3">
-                                        <select name="cuenta_2_tipo" id="cuenta_2_tipo" class="form-control">
+                                        <select name="cuenta_2_tipo" id="cuenta_2_tipo" class="form-control"
+                                            value="<?=$empleado->cuenta_2_tipo?>">
                                             <option value="pesos">Pesos</option>
                                             <option value="uf">UF</option>
                                         </select>
                                     </div>
                                     <div class="col-xs-12 col-md-3">
                                         <input type="number" name="cuenta_2_valor" id="cuenta_2_valor"
-                                            class="form-control" placeholder=" ingrese valor">
+                                            value="<?=$empleado->cuenta_2_valor?>" class="form-control"
+                                            placeholder=" ingrese valor">
                                     </div>
                                     <div class="col-xs-12 col-md-3">
-                                        <select name="cuenta_2_afp" id="cuenta_2_afp" class="form-control">
+                                        <select name="cuenta_2_afp" id="cuenta_2_afp" class="form-control"
+                                            value="<?=$empleado->cuenta_2_afp?>">
                                             <option value="capital">Capital</option>
                                             <option value="cuptrum">Cuprum</option>
                                             <option value="habitat">Habitat</option>
@@ -201,7 +251,8 @@
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Ex-caja</label>
-                                        <select name="ex_caja" id="" class="form-control">
+                                        <select name="ex_caja" id="" class="form-control"
+                                            value="<?=$empleado->ex_caja?>">
                                             <option value="0" selected="">0 - No pertenece al IPS</option>
                                             <option value="3">3 - Caja Prev. y Est. de los Empl. del Bco. de Chile
                                             </option>
@@ -340,13 +391,13 @@
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Cotización Ex-caja</label>
                                         <input type="number" step="any " name="cotizacion_ex_caja" class="form-control"
-                                            placeholder="ingrese valor">
+                                            value="<?=$empleado->cotizacion_ex_caja?>" placeholder="ingrese valor">
                                     </div>
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Isapre</label>
-                                        <select name="isapre" id="" class="form-control">
+                                        <select name="isapre" id="" class="form-control" value="<?=$empleado->isapre?>">
                                             <option value="0">No Cotiza</option>
                                             <option value="1">Banmédica</option>
                                             <option value="9">Chuquicamata</option>
@@ -368,19 +419,21 @@
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Plan UF</label>
                                         <input type="number" step="any " name="isapre_plan_uf" class="form-control"
-                                            placeholder="ingrese valor">
+                                            value="<?=$empleado->isapre_plan_uf?>" placeholder="ingrese valor">
                                     </div>
 
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Plan $</label>
-                                        <input type="number" name="plan_isapre" class="form-control">
+                                        <input type="number" name="plan_isapre" class="form-control"
+                                            value="<?=$empleado->plan_isapre?>">
                                     </div>
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Plan %</label>
                                         <input type="number" step="any " name="plan_isapre_porcentaje"
-                                            class="form-control" placeholder="ingrese valor">
+                                            value="<?=$empleado->plan_isapre_porcentaje?>" class="form-control"
+                                            placeholder="ingrese valor">
                                     </div>
 
                                 </div>
@@ -388,7 +441,7 @@
 
                                     <div class="col-xs-12 col-md-3">
                                         <label for="">Tramo</label>
-                                        <select name="tramo" id="" class="form-control">
+                                        <select name="tramo" id="" class="form-control" value="<?=$empleado->tramo?>">
                                             <option value="">Seleccione tramo</option>
                                             <option value="a">A</option>
                                             <option value="b">B</option>
@@ -399,41 +452,47 @@
                                     <div class="col-xs-12 col-md-3">
                                         <label for="cargas_simples">Cargas Simples<label>
                                                 <input type="number" name="cargas_simples" class="form-control mt-2"
-                                                    placeholder="ingrese valor">
+                                                    value="<?=$empleado->cargas_simples?>" placeholder="ingrese valor">
                                     </div>
                                     <div class="col-xs-12 col-md-3">
                                         <label for="cargas_maternales">Cargas Maternales<label>
                                                 <input type="number" name="cargas_maternales" class="form-control mt-2"
+                                                    value="<?=$empleado->cargas_maternales?>"
                                                     placeholder="ingrese valor">
                                     </div>
                                     <div class="col-xs-12 col-md-3">
                                         <label for="cargas_invalidez">Cargas Invalidez<label>
                                                 <input type="number" name="cargas_invalidez" class="form-control mt-2"
+                                                    value="<?=$empleado->cargas_invalidez?>"
                                                     placeholder="ingrese valor">
                                     </div>
 
                                 </div>
                                 <div class="row mb-3 ml-2 ms-4 mt-5 ">
                                     <div class="col-xs-12 col-md-2 ml-2 form-check mb-6">
-                                        <input type="checkbox" name="jubilado" id="" class="form-check-input" style="transform:scale(2.5);>
+                                        <input type="checkbox" name="jubilado" id="" class="form-check-input"
+                                            style="transform:scale(2.5);"  <?=$empleado->jubilado=='on' ? 'checked':'' ?> >
+
                                         <label class=" form-check-label" for="" style="fontize:10px;">&nbsp;
-                                        Jubilado</label>
+                                            Jubilado</label>
                                     </div>
                                     <div class="col-xs-12 col-md-4 form-check ">
                                         <input type="checkbox" name="seguro_cesantia_2002" class="form-check-input"
-                                            style="transform:scale(2.5);">
+                                            style="transform:scale(2.5);"   <?=$empleado->seguro_cesantia_2002=='on' ? 'checked':'' ?>>
                                         <label for="" class="form-check-label" style="font-size:10px">&nbsp; Seg. C
                                             (contrato sea anterior al 02/10/2002).</label>
                                     </div>
                                     <div class="col-xs-12 col-md-3 form-check ">
                                         <input type="checkbox" name="seguro_cesantia_empresarial"
-                                            class="form-check-input" style="transform:scale(2.5);">
+                                            class="form-check-input" style="transform:scale(2.5);"
+                                            <?=$empleado->seguro_cesantia_empresarial=='on' ? 'checked':'' ?> >
                                         <label for="" class="form-check-label" style="font-size:10px">&nbsp; Seg. C
                                             (sueldo empresarial).</label>
                                     </div>
                                     <div class="col-xs-12 col-md-3 form-check ">
                                         <input type="checkbox" name="seguro_cesantia_fondo_solidario"
-                                            class="form-check-input" style="transform:scale(2.5);">
+                                            class="form-check-input" style="transform:scale(2.5);"
+                                            <?=$empleado->seguro_cesantia_fondo_solidario=='on' ? 'checked':'' ?>>
                                         <label for="" class="form-check-label" style="font-size:10px">&nbsp; Seg. C
                                             (fondo solidario).</label>
                                     </div>
@@ -441,15 +500,16 @@
                                 <div class="row mb-3 ms-4 mt-5">
 
                                     <div class="col-xs-12 col-md-3 form-check  ">
-                                        <input type="checkbox" name="seguto_invalidez" id="" class="form-check-input"
-                                            style="transform:scale(2.5)">
+                                        <input type="checkbox" name="seguro_invalidez" id="" class="form-check-input"
+                                        <?=$empleado->seguro_invalidez=='on' ? 'checked':'' ?> style="transform:scale(2.5)">
                                         <label class="form-check-label" style="font-size:10px" for="">&nbsp; S.I.S (no
                                             pagar > 65)</label>
                                     </div>
 
                                     <div class="col-xs-12 col-md-9  ">
                                         <div class="form-inline">
-                                            <select name="seguro_centia afp" id="" class="form-control">
+                                            <select name="seguro_cesantia_afp" id="" class="form-control"
+                                                value="<?=$empleado->seguro_cesantia_afp?>">
                                                 <option value="">Seleccion opcion</option>
                                                 <option value="capital">Capital</option>
                                                 <option value="cuptrum">Cuprum</option>
@@ -473,7 +533,8 @@
                                     <div class="label">Trabajo Pesado</div>
 
                                     <div class="col-xs-12 col-md-2  ">
-                                        <select name="trabajo_pesado_porcentaje" id="" class="form-control">
+                                        <select name="trabajo_pesado_porcentaje" id="" class="form-control"
+                                            value="<?=$empleado->trabajo_pesado_porcentaje?>">
                                             <option value="">%</option>
                                             <option value="0.02">2%</option>
                                             <option value="0.04">4%</option>
@@ -481,7 +542,8 @@
 
                                     </div>
                                     <div class="col-xs-12 col-md-3">
-                                        <select name="trabajo_pesado" id="" class="form-control">
+                                        <select name="trabajo_pesado" id="" class="form-control"
+                                            value="<?=$empleado->trabajo_pesado?>">
                                             <option value="0" selected="">Seleccionar</option>
                                             <option value="2">Buzo</option>
                                             <option value="8">Camarografo</option>
@@ -494,7 +556,7 @@
                                         </select>
                                     </div>
                                     <div class="col-xs-12 col-md-4">
-                                        <select name="mutual" id="" class="form-control">
+                                        <select name="mutual" id="" class="form-control" value="<?=$empleado->mutual?>">
                                             <option value="">Seleccione mutual</option>
                                             <option value="capital">Capital</option>
                                             <option value="cuptrum">Cuprum</option>
@@ -508,6 +570,7 @@
                                     </div>
                                     <div class="col-xs-12 col-md-3 form-check mt-2">
                                         <input type="checkbox" name="socio_lre" id="" class="form-check-input"
+                                        <?=$empleado->socio_lre=='on' ? 'checked':'' ?>
                                             style="transform:scale(2.5);margin-left:15px !important">
                                         <label class="form-check-label" style="font-size:10px;margin-left:40px"
                                             for="">Socio(lre)</label>
@@ -518,7 +581,7 @@
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Banco</label>
-                                        <select name="banco" id="" class="form-control">
+                                        <select name="banco" id="" class="form-control" value="<?=$empleado->banco?>">
                                             <option value="0" selected="">Seleccionar</option>
                                             <option value="46">ABN AMRO</option>
                                             <option value="504">BBVA</option>
@@ -554,7 +617,8 @@
                                     </div>
                                     <div class="col-xs-12 col-md-6">
                                         <label for="">Tipo</label>
-                                        <select name="tipo_pago" id="tipo_pago" class="form-control">
+                                        <select name="tipo_pago" id="tipo_pago" class="form-control"
+                                            value="<?=$empleado->tipo_pago?>">
                                             <option value="4" selected="">Chequera Electrónica</option>
                                             <option value="1">Cuenta Corriente</option>
                                             <option value="3">Cuenta de Ahorro</option>
@@ -568,11 +632,11 @@
 
                         </div>
 
+                        <button type="submit" class="btn btn-secondary float-end m-1"> Actualizar</button>
                 </div>
             </div>
 
 
-            <button type="submit" class="btn btn-primary float-end m-1"> Registrar</button>
             </form>
         </div>
     </div>

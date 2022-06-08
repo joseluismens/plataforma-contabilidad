@@ -50,7 +50,6 @@
 				                        <span class="side-menu__label">Empleados</span><i class="angle fa fa-angle-right"></i>
 				                    </a>
 				                    <ul class="slide-menu">
-				                        <li><a href="<?=base_url()?>/index.php/empresa" class="slide-item">Nueva</a></li>
 										<li><a href="<?=base_url()?>/index.php/empresa/listar" class="slide-item">listar</a></li>
 
 				                    </ul>

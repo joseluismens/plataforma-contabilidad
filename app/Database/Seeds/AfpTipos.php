@@ -1,0 +1,82 @@
+<?php
+
+namespace App\Database\Seeds;
+
+use CodeIgniter\Database\Seeder;
+
+class AfpTipos extends Seeder
+{
+    public function run()
+    {
+        $data = [ 
+      [ "name"=> "ABN AMRO (CHILE) SEGUROS DE VIDA S.A."],
+      [ "name"=> "ACE SEGUROS S.A."],
+      [ "name"=> "ADMINISTRADORA GENERAL DE FONDOS SECURITY S.A."],
+      [ "name"=> "AFP Capital"],
+      [ "name"=>  "AFP Cuprum"],
+      [ "name"=>  "AFP Habitat"],
+      [ "name"=> "AFP Modelo"],
+      [ "name"=> "AFP Planvital"],
+      [ "name"=>  "AFP Provida"],
+      [ "name"=> "AFP UNO"],
+      [ "name"=> "AGF ALLIANZ CHILE COMPAÑIA DE SEGUROS VIDA S.A."],
+      [ "name"=> "BANCHILE CORREDORES DE BOLSA S.A."],
+      [ "name"=> "BANCHILE SEGUROS DE VIDA S.A."],
+      [ "name"=> "Banco BBVA Bhif"],
+      [ "name"=> "BANCO RIPLEY"],
+      [ "name"=> "BANCO SANTANDER SANTIAGO"],
+      [ "name"=> "BANCO SCOTIABANK"],
+      [ "name"=> "BANCOESTADO S.A. ADMINISTRADORA GENERAL DE FONDOS"],
+      [ "name"=> "BANDESARROLLO ADMINISTRADORA GENERAL DE FONDOS S.A."],
+      [ "name"=> "BBVA ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A."],
+      [ "name"=> "BBVA SEGUROS DE VIDA S.A."],
+      [ "name"=> "BCI ASSET MANAGEMENT ADMINISTRADORA GENERAL DE FONDOS S.A. "],
+      [ "name"=> "BCI SEGUROS VIDA S.A."],
+      [ "name"=> "BICE INVERSIONES ADMINISTRADORA GENERAL DE FONDOS S.A. "],
+      [ "name"=> "BICE INVERSIONES CORREDORES DE BOLSA S.A."],
+      [ "name"=> "BICE VIDA COMPAÑIA DE SEGUROS S.A."],
+      [ "name"=> "BTG PACTUAL CHILE S.A. ADMINISTRADORA GENERAL DE FONDOS "],
+      [ "name"=> "CAJA DE COMPENSACION LOS ANDES"],
+      [ "name"=> "CELFIN CAPITAL S.A. CORREDORES DE BOLSA"],
+      [ "name"=> "CHILENA CONSOLIDADA SEGUROS DE VIDA S.A."],
+      [ "name"=> "CIA DE SEG. DE VIDA CONSORCIO NACIONAL DE SEG S.A. "],
+      [ "name"=> "CIGNA COMPAÑIA DE SEGUROS DE VIDA S.A."],
+      [ "name"=> "CN LIFE], COMPAÑIA DE SEGUROS DE VIDA S.A."],
+      [ "name"=> "COMPAÑIA DE SEGUROS CONFUTURO S.A."],
+      [ "name"=> "COMPAÑIA DE SEGUROS DE VIDA CARDIF S.A."],
+      [ "name"=> "COMPAÑIA DE SEGUROS DE VIDA CRUZ DEL SUR S.A."],
+      [ "name"=> "COMPAÑIA DE SEGUROS DE VIDA HUELEN S.A."],
+      [ "name"=> "COMPAÑIA DE SEGUROS DE VIDA VITALIS S.A."],
+      [ "name"=> "COMPAÑIA DE SEGUROS GENERALES PENTA-SECURITY S.A.  "],
+      [ "name"=> "CORPBANCA ADMINISTRADORA GENERAL DE FONDOS S.A."],
+      [ "name"=> "CORREDORES DE BOLSA SURA S.A."],
+      [ "name"=> "CRUZ DEL SUR ADMINISTRADORA GENERAL DE FONDOS S.A."],
+      [ "name"=> "CRUZ DEL SUR CORREDORA DE BOLSA S.A."],
+      [ "name"=> "EUROAMERICA ADMINISTRADORA GENERAL DE FONDOS S.A."],
+      [ "name"=> "EUROAMERICA SEGUROS DE VIDA S.A." ],
+      [ "name"=> "FINTUAL ADMINISTRADORA GENERAL DE FONDOS S.A"],
+      [ "name"=> "ITAU CHILE ADMINISTRADORA GENERAL DE FONDOS S.A."],
+      [ "name"=> "LARRAIN VIAL ADMINISTRADORA GENERAL DE FONDOS S.A."],
+      [ "name"=> "LARRAIN VIAL S.A. CORREDORA DE BOLSA"],
+      [ "name"=> "MAPFRE COMPAÑIA DE SEGUROS DE VIDA DE CHILE S.A."],
+      [ "name"=> "METLIFE CHILE SEGUROS DE VIDA S.A."],
+      [ "name"=> "MUTUAL DE SEGUROS DE CHILE"],
+      [ "name"=> "MUTUALIDAD DE CARABINEROS"],
+      [ "name"=> "MUTUALIDAD DEL EJERCITO Y AVIACION"],
+      [ "name"=> "OHIO NATIONAL SEGUROS DE VIDA S.A."],
+      [ "name"=> "PENTA ADMINISTRADORA GENERAL DE FONDOS S.A."],
+      [ "name"=> "PENTA VIDA COMPAÑIA DE SEGUROS DE VIDA S.A."],
+      [ "name"=> "PRINCIPAL ADMINISTRADORA GENERAL DE FONDOS S.A."],
+      [ "name"=> "PRINCIPAL COMPAÑIA DE SEGUROS DE VIDA CHILE S.A."],
+      [ "name"=> "RENTA NACIONAL COMPAÑIA DE SEGUROS DE VIDA S.A."],
+      [ "name"=> "SANTANDER ASSET MANAGEMENT S.A. ADM. GENERAL DE FONDOS"],
+      [ "name"=> "SANTANDER SEGUROS DE VIDA S.A."],
+      [ "name"=> "SCOTIA SUD AMERICANO ADMINISTRADORA DE FONDOS MUTUOS S.A."],
+      [ "name"=> "SCOTIA SUD AMERICANO CORREDORES DE BOLSA S.A."],
+      [ "name"=> "SEGUROS DE VIDA SECURITY PREVISION S.A."],
+      [ "name"=> "SEGUROS DE VIDA SURA S.A."],
+      [ "name"=> "ZURICH ADMINISTRADORA GENERAL DE FONDOS S.A."],
+        ];
+        $this->db->table('afp_tipos')->insertBatch($data);
+    }
+}

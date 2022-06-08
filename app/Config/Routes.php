@@ -49,6 +49,7 @@ $routes->get( 'nuevoEmpleado/(:num)','EmpleadoController::create/$1',['as'=>'nue
 $routes->get( 'empleado/(:num)','EmpleadoController::edit/$1',['as'=>'modificarEmpleados']);
 $routes->get('empleado/contratos/(:num)','EmpleadoController::editContrato/$id',['as'=>'datosContrato']);
 $routes->post('empleado','EmpleadoController::add',['as'=>'registrarEmpleado']);
+$routes->post( 'empleado/(:num)','EmpleadoController::update/$1',['as'=>'actualizarEmpleado']);
 
 $routes->group('/',['filter'=>'authGuard'],function($routes){
     $routes->group('empresa',function($routes){
