@@ -4,6 +4,8 @@ namespace App\Controllers;
 use CodeIgniter\Controller;
 use App\Models\EmpleadoModel;
 use App\Models\EmpresaModel;
+use App\Models\ContratoModel;
+
 use App\Models\TiposAfpModel;
 class EmpleadoController extends Controller{
 
@@ -28,7 +30,16 @@ class EmpleadoController extends Controller{
         return view ('empleado/editar',$data);
     }
     function editContrato($id){
-        return view('/empleado/datos_contrato');
+        $contratoModel = new ContratoModel();
+        $empleadoModel = new EmpleadoModel();
+        $empresaModel = new EmpresaModel();
+        $data['id_empleado']= $id;
+        $data['contrato'] = $contratoModel->where('id_empleado',$id)->get()->getResultObject();
+        if(count($data['contrato'])>0){
+            $empleado = $empleadoModel->find($id);
+            $data['empresa'] = $empresaModel->find($empleado->id_empresa);
+        }
+        return view('/empleado/datos_contrato',$data);
     }
     public function create($id){
         helper(['form']);
@@ -70,7 +81,7 @@ class EmpleadoController extends Controller{
                 'foto'=>$this->request->getVar('foto'),
                 'afp'=>$this->request->getVar('afp'),
                 'apv_tipo'=>$this->request->getVar('apv_tipo'),
-                'apv_tributable'=>$this->request->getVar('apv_tributable'),
+                'apv_tributable'=>$this->request->getVar('apv_tributable')!=null ? 'on':'off',
                 'apv'=>$this->request->getVar('apv'),
                 'apv_institucion'=>$this->request->getVar('apv_institucion'),
                 'ex_caja'=>$this->request->getVar('ex_caja'),
@@ -84,19 +95,19 @@ class EmpleadoController extends Controller{
                 'cargas_simples'=>$this->request->getVar('cargas_simples'),
                 'cargas_invalidez'=>$this->request->getVar('cargas_invalidez'),
                 'cargas_maternales'=>$this->request->getVar('cargas_maternales'),
-                'jubilado'=>$this->request->getVar('jubilado'),
-                'seguro_cesantia_2002'=>$this->request->getVar('seguro_cesantia_2002'),
-                'seguro_cesantia_empresarial'=>$this->request->getVar('seguro_cesantia_empresarial'),
-                'seguro_cesantia_fondo_solidario'=>$this->request->getVar(  'seguro_cesantia_fondo_solidario'),
+                'jubilado'=>$this->request->getVar('jubilado')!=null ? 'on':'off',
+                'seguro_cesantia_2002'=>$this->request->getVar('seguro_cesantia_2002')!=null ? 'on':'off',
+                'seguro_cesantia_empresarial'=>$this->request->getVar('seguro_cesantia_empresarial')!=null ? 'on':'off',
+                'seguro_cesantia_fondo_solidario'=>$this->request->getVar(  'seguro_cesantia_fondo_solidario')!=null ? 'on':'off',
                 'seguro_censantia_afp'=>$this->request->getVar('seguro_censantia_afp'),
-                'seguro_invalidez'=>$this->request->getVar('seguro_invalidez'),
+                'seguro_invalidez'=>$this->request->getVar('seguro_invalidez')!=null ? 'on':'off',
                 'trabajo_pesado'=>$this->request->getVar('trabajo_pesado'),
                 'trabajo_pesado_porcentaje'=>$this->request->getVar( 'trabajo_pesado_porcentaje'),
                 'cuenta_2_tipo'=>$this->request->getVar( 'cuenta_2_tipo'),
                 'cuenta_2_valor'=>$this->request->getVar('cuenta_2_valor'),
                 'cuenta_2_afp'=>$this->request->getVar('cuenta_2_afp'),
                 'mutual'=>$this->request->getVar('mutual'),
-                'socio_lre'=>$this->request->getVar('socio_lre'),
+                'socio_lre'=>$this->request->getVar('socio_lre')!=null ? 'on':'off',
                 'metodo'=>$this->request->getVar('metodo'),
                 'cuenta'=>$this->request->getVar('cuenta'),
                 'banco'=>$this->request->getVar('banco'),
@@ -175,6 +186,53 @@ class EmpleadoController extends Controller{
         }
         return redirect()->back()->withInput()->with('errors',$this->validator->getErrors());
 
+    }
+    public function delete($id){
+        $empleadoModel = new EmpleadoModel();
+
+        $result= $empleadoModel->where('id',$id)->delete();
+        if ($result) {
+            return  redirect()->back();
+        }
+        dd($result);
+    }
+
+    public function updateContrato($id){
+        $contratoModel = new ContratoModel();
+        
+        $contrato = $contratoModel->where('id_empleado', $id)->first();
+        $input_contrato = [
+            'suc'=>$this->request->getVar('suc'),
+            'cargo'=>$this->request->getVar('cargo'),
+            'horario'=>$this->request->getVar('horario'),
+            'suc_cc'=>$this->request->getVar('suc_cc'),
+            'renta_tipo'=>$this->request->getVar('renta_tipo'),
+            'renta'=>$this->request->getVar('renta'),
+            'meses_cotizados'=>$this->request->getVar('meses_cotizados'),
+            'zona_extrema'=>$this->request->getVar('zona_extrema'),
+            'domicilio_laboral'=>$this->request->getVar('domicilio_laboral'),
+            'tipo_contrato'=>$this->request->getVar('tipo_contrato'),
+            'desde'=>$this->request->getVar('desde'),
+            'hasta'=>$this->request->getVar('hasta'),
+            'gratificacion'=>$this->request->getVar('gratificacion'),
+            'factor_he'=>$this->request->getVar('factor_he'),
+            'colacion'=>$this->request->getVar('colacion'),
+            'movilizacion'=>$this->request->getVar('movilizacion'),
+            'dias_vacaciones'=>$this->request->getVar('dias_vacaciones'),
+            'finiquito_causa'=>$this->request->getVar('finiquito_causa'),
+            'fecha_finiquito'=>$this->request->getVar('fecha_finiquito'),
+            'monto_aviso'=>$this->request->getVar('monto_aviso'),
+            'monto_indemnizacion'=>$this->request->getVar('monto_indemnizacion'),
+            'monto_vacaciones'=>$this->request->getVar('monto_vacaciones'),
+            'id_empleado'=>$id
+        ];
+        if ($contrato!=null) {
+            $contratoModel->where('id_empleado');
+            $contratoModel->update($input_contrato);
+        }else{
+            $contratoModel->save($data);
+        }   
+        return redirect()->back();
     }
         
 }

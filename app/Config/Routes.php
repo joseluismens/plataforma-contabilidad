@@ -47,9 +47,13 @@ $routes->post('/empresa/update','EmpresaController::update',['as'=>'ActualizarEm
 $routes->get( 'empleados/(:num)','EmpleadoController::listAll/$1',['as'=>'listarEmpleados']);
 $routes->get( 'nuevoEmpleado/(:num)','EmpleadoController::create/$1',['as'=>'nuevoEmpleados']);
 $routes->get( 'empleado/(:num)','EmpleadoController::edit/$1',['as'=>'modificarEmpleados']);
-$routes->get('empleado/contratos/(:num)','EmpleadoController::editContrato/$id',['as'=>'datosContrato']);
+$routes->get('empleado/contratos/(:num)','EmpleadoController::editContrato/$1',['as'=>'datosContrato']);
 $routes->post('empleado','EmpleadoController::add',['as'=>'registrarEmpleado']);
 $routes->post( 'empleado/(:num)','EmpleadoController::update/$1',['as'=>'actualizarEmpleado']);
+$routes->post('empleado/contrato/(:num)','EmpleadoController::updateContrato/$1',['as'=>'actualizarContrato']);
+
+
+$routes->get( 'empleado/eliminar/(:num)','EmpleadoController::delete/$1',['as'=>'eliminarEmpleado']);
 
 $routes->group('/',['filter'=>'authGuard'],function($routes){
     $routes->group('empresa',function($routes){

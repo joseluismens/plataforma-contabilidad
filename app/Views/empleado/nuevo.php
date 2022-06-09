@@ -29,7 +29,7 @@
                                         <input type="text" class="form-control" id="rut" name="rut"
                                             placeholder="Ingrese el rut">
                                     </div>
-                                
+
                                 </div>
                                 <div class="row mb-3">
                                     <div class="col-xs-12 col-md-4">
@@ -110,8 +110,7 @@
                                 <div class="row mb-3">
                                     <label for="">APV</label>
                                     <div class=" col-xs-12 col-md-3">
-                                    <select name="apv_institucion" id="" class="form-control"
-                                           >
+                                        <select name="apv_institucion" id="" class="form-control">
                                             <?php foreach ($tipos_afp as $value) { ?>
                                             <option value="<?=$value->id?>">
                                                 <?=$value->name?></option>
@@ -119,7 +118,7 @@
 
 
                                         </select>
-                                        
+
                                     </div>
                                     <div class="col-xs-12 col-md-3 ">
                                         <select name="apv_tipo" id="apv_tipo" class="form-control">
@@ -133,7 +132,8 @@
                                     </div>
                                     <div class="col-xs-12 col-md-3 form-check mt-2">
                                         <label class="form-check-label ml-1" for="">Tributable</label>
-                                        <input type="checkbox" name="apv_tributable" id="" class="form-check-input m-0 ml-1"
+                                        <input type="checkbox" name="apv_tributable" id=""
+                                            class="form-check-input m-0 ml-1"
                                             style="transform:scale(2.5);margin-left:15px !important">
                                     </div>
                                 </div>

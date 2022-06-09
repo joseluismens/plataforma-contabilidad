@@ -8,6 +8,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
+                    <a href="<?=base_url()?>/index.php/empleado/contratos/<?=$empleado->id?>" class="btn btn-secondary float-end">Datos contrato</a>
                     <h5 class="card-title"> Actualizar Empleado <?=$empresa->nombre?></h5>
 
                     <form action="<?=base_url()?>/index.php/empleado/<?=$empleado->id?>" method="post">
