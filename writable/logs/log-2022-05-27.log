@@ -1,0 +1,18 @@
+CRITICAL - 2022-05-27 15:52:48 --> Invalid file: empresa/configurar.php
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Empresa.php(17): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Empresa->configurar()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 16:12:02 --> Invalid file: contrato/nuevo.php
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Contrato.php(8): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Contrato->index()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

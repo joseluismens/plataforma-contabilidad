@@ -1,0 +1,1056 @@
+CRITICAL - 2022-05-30 09:47:38 --> Invalid file: configuracion/roles.php
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(6): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 10:09:47 --> Invalid file: rok.php
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(9): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 10:56:06 --> Undefined variable: validation
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 10:56:59 --> Undefined variable: validation
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 10:58:27 --> Undefined variable: validation
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 10:58:31 --> Undefined variable: validation
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 10:59:09 --> Undefined variable: validation
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 10:59:59 --> syntax error, unexpected end of file
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 11:00:00 --> syntax error, unexpected end of file
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 11:00:01 --> syntax error, unexpected end of file
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 11:00:01 --> syntax error, unexpected end of file
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 11:00:01 --> syntax error, unexpected end of file
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 11:00:01 --> syntax error, unexpected end of file
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 11:00:01 --> syntax error, unexpected end of file
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 11:00:02 --> syntax error, unexpected end of file
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 11:01:15 --> Undefined variable: validation
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 11:01:32 --> Undefined variable: validation
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(10): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 11:07:23 --> Call to undefined function CodeIgniter\Validation\mb_strlen()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->min_length()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\Controller->validate()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 11:07:39 --> Call to undefined function CodeIgniter\Validation\mb_strlen()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->min_length()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\Controller->validate()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 11:11:00 --> Call to undefined function CodeIgniter\Validation\mb_strlen()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->min_length()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\Controller->validate()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 11:11:45 --> Call to undefined function CodeIgniter\Validation\mb_strlen()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Validation/Validation.php(292): CodeIgniter\Validation\Rules->min_length()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\Controller->validate()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 11:13:47 --> Undefined property: App\Controllers\Roles::$input
+#0 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 11:13:51 --> Undefined property: App\Controllers\Roles::$input
+#0 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 11:14:21 --> Undefined variable: input
+#0 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 15:19:39 --> Undefined variable: input
+#0 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 15:21:39 --> Undefined variable: request
+#0 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 15:27:59 --> Class 'App\Controllers\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:28:25 --> Class 'App\Controllers\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:28:49 --> Class 'App\Controllers\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:29:42 --> Class 'App\Models\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:31:28 --> Class 'App\Models\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:31:57 --> Class 'App\Models\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:32:02 --> Class 'App\Models\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:32:21 --> Class 'App\Models\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:33:21 --> Class 'App\Controllers\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:33:38 --> Class 'App\Models\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:37:25 --> Class 'App\Models\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:53:44 --> Class 'App\Controllers\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:53:52 --> Class 'App\Controllers\RoleModel' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 15:54:12 --> Cannot declare class App\Models\RoleModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-30 15:56:21 --> Class 'CodeIgniter\Database\pgsql\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(21): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 15:57:44 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(21): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 15:58:20 --> Allowed fields must be specified for model: App\Models\Role
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(23): CodeIgniter\BaseModel->save()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 16:00:07 --> Allowed fields must be specified for model: App\Models\Role
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(23): CodeIgniter\BaseModel->save()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 16:00:54 --> Allowed fields must be specified for model: App\Models\Role
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(23): CodeIgniter\Model->insert()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 16:02:15 --> There is no data to insert.
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(23): CodeIgniter\Model->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 16:07:16 --> There is no data to insert.
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(23): CodeIgniter\Model->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-30 16:19:40 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:19:40 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:29:11 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:29:11 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:29:20 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:29:20 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:30:34 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:30:34 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:30:35 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:30:35 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:30:56 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:30:56 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:30:58 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:30:58 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:32:04 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:32:04 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:32:05 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:32:05 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:32:05 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:32:05 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 16:32:45 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 16:32:45 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 16:55:53 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 16:58:06 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 16:58:06 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 16:59:13 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 16:59:14 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 16:59:18 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 17:01:01 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 17:01:02 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 17:03:40 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 17:03:41 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 17:04:36 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 17:05:45 --> Class 'CodeIgniter\Database\postgre\Connection' not found
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Database.php(56): CodeIgniter\Database\Database->initDriver()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Config.php(78): CodeIgniter\Database\Database->load()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(97): CodeIgniter\Database\Config::connect()
+#3 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(12): CodeIgniter\Model->__construct()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-30 17:09:31 --> Error connecting to the database: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+CRITICAL - 2022-05-30 17:09:31 --> Unable to connect to the database.
+Main connection [Postgre]: Call to undefined function CodeIgniter\Database\Postgre\mb_strpos()
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-30 17:16:42 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;roles&quot; does not exist
+LINE 2: FROM &quot;roles&quot;
+             ^ in /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#7 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#8 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-30 17:16:42 --> pg_query(): Query failed: ERROR:  relation &quot;roles&quot; does not exist
+LINE 2: FROM &quot;roles&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#7 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#8 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-30 17:16:58 --> ErrorException: pg_query(): Query failed: ERROR:  relation &quot;roles&quot; does not exist
+LINE 2: FROM &quot;roles&quot;
+             ^ in /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#7 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#8 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-30 17:16:58 --> pg_query(): Query failed: ERROR:  relation &quot;roles&quot; does not exist
+LINE 2: FROM &quot;roles&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#7 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(13): CodeIgniter\BaseModel->findAll()
+#8 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-30 17:17:32 --> Undefined variable: datos
+#0 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 17:17:33 --> Undefined variable: datos
+#0 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 17:17:34 --> Undefined variable: datos
+#0 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 17:17:35 --> Undefined variable: datos
+#0 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(15): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 17:17:50 --> There is no data to insert.
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 17:18:45 --> There is no data to insert.
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 17:19:54 --> There is no data to insert.
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 17:20:39 --> There is no data to insert.
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 17:22:36 --> There is no data to insert.
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 17:22:44 --> There is no data to insert.
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-30 17:23:14 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^ in /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-30 17:23:14 --> pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-30 17:25:08 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^ in /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-30 17:25:08 --> pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-30 17:25:50 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^ in /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-30 17:25:50 --> pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-30 17:25:54 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^ in /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-30 17:25:54 --> pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-30 17:25:57 --> ErrorException: pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^ in /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php:135
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-30 17:25:57 --> pg_query(): Query failed: ERROR:  column &quot;updated_at&quot; of relation &quot;roles&quot; does not exist
+LINE 1: INSERT INTO &quot;roles&quot; (&quot;nombre&quot;, &quot;created_at&quot;, &quot;updated_at&quot;) V...
+                                                     ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/Postgre/Connection.php(135): pg_query()
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\Postgre\Connection->execute()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#8 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(26): CodeIgniter\Model->insert()
+#9 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->crear()
+#10 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-05-30 17:29:07 --> Undefined variable: rol
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(14): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 17:29:17 --> Undefined variable: rol
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(14): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 17:29:18 --> Undefined variable: rol
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(14): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 17:31:36 --> syntax error, unexpected end of file
+#0 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(14): view()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#4 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 17:32:05 --> Trying to get property 'nombre' of non-object
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(53): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(14): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 17:34:18 --> Undefined index: tipo
+#0 /var/www/html/plataforma-contabilidad/app/Views/configuracion/roles.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/p...')
+#2 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/plataforma-contabilidad/app/Controllers/Roles.php(14): view()
+#5 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Roles->roles()
+#6 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/plataforma-contabilidad/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/plataforma-contabilidad/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
